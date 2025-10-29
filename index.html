@@ -1,48 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-    <meta charset="UTF-8" />
-    <title>Bursa Barosu Adalet Kupası</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="./data/apple-touch-icon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bursa Barosu Adalet Kupası</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="./index.html">
-          🏀 Bursa Barosu Adalet Kupası
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Ana Sayfa</a>
-            </li>
-            <li class="nav-item">
-              <a title="Maçlar oynandıkça eklenecektir." class="nav-link disabled"  aria-disabled="true" href="#">Galeri</a>
-            </li>
-            <li class="nav-item">
-              <a  class="nav-link"  href="./bilgiler.html">Konum ve İletişim</a>
-            </li>
-          
-          </ul>
-        </div>
+
+  <!-- 🔹 Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">🏀 Adalet Kupası</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="./index.html">Ana Sayfa</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="./bilgiler.html">Konum</a></li>
+        </ul>
       </div>
-    </nav>
-    
-  <h1 class="text-center mt-4">Baro Basketbol Turnuvası 🏀</h1>
-  <div class="container mt-4">
-    <p>Turnuva skorları burada yer alacak.</p>
+    </div>
+  </nav>
+
+  <!-- 🔹 Başlık -->
+  <header  class="text-center my-4">
+    <div class="resimliBaslik" style="background-image: url(./data/img1.jpg);">
+        <h1 class="text-white">Bursa Barosu Basketbol Turnuvası</h1>
+        <p class="text-white">Adalet Kupası 2025</p>
+    </div>
+  
+  </header>
+
+  <!-- 🔹 Skor Tablosu -->
+  <div class="container mb-5">
+    <h3 class="mb-3">Son Maç Sonuçları</h3>
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered align-middle">
+        <thead class="table-dark">
+          <tr>
+            <th>Tarih</th>
+            <th>Takım 1</th>
+            <th>Skor</th>
+            <th>Takım 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>24 Ekim 2025</td>
+            <td>Bursa Barosu</td>
+            <td><strong>67 - 59</strong></td>
+            <td>Ankara Barosu</td>
+          </tr>
+          <tr>
+            <td>25 Ekim 2025</td>
+            <td>Bursa Barosu</td>
+            <td><strong>72 - 70</strong></td>
+            <td>İzmir Barosu</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 
+  <!-- 🔹 Takım Kartları -->
+  <div class="container mb-5">
+    <h3 class="mb-3 text-center">Katılan Takımlar</h3>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="shadow card team-card">
+          <!-- <img src="https://via.placeholder.com/400x250?text=Avukatlar+A" class="card-img-top" alt="Takım 1"> -->
+          <div class="card-body">
+            <h5 class="card-title">Bursa Barosu</h5>
+            <p class="card-text">Geçen senenin yarı finalisti. Güçlü savunmasıyla dikkat çekiyor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="shadow card team-card">
+          <!-- <img src="https://via.placeholder.com/400x250?text=Ceza+Grubu" class="card-img-top" alt="Takım 2"> -->
+          <div class="card-body">
+            <h5 class="card-title">Ankara Barosu</h5>
+            <p class="card-text">Hızlı hücum ve genç oyuncularıyla bu yıl iddialı.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="shadow card team-card">
+          <!-- <img src="https://via.placeholder.com/400x250?text=İdare+Grubu" class="card-img-top" alt="Takım 3"> -->
+          <div class="card-body">
+            <h5 class="card-title">İzmir Barosu</h5>
+            <p class="card-text">Deneyimli kadrosuyla parkede stratejik oyun oynuyor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- 🔹 Footer -->
+  <footer class="bg-dark text-light text-center py-3">
+    <p class="mb-0">© 2025 Bursa Barosu | Adalet Kupası</p>
+  </footer>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
