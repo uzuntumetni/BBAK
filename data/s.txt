@@ -1,0 +1,23 @@
+Gün 1
+
+Ankara Barosu Erkek (A1) — Ankara Barosu Basketbol A (B1)
+
+İstanbul Barosu Basketbol (A2) — İstanbul Barosu KSK (C1)
+
+Bursa Barosu (B2) — Sakarya Barosu (C2)
+
+Gün 2
+
+Ankara Barosu Erkek (A1) — Sakarya Barosu (C2)
+
+İstanbul Barosu Basketbol (A2) — Bursa Barosu (B2)
+
+Ankara Barosu Basketbol A (B1) — İstanbul Barosu KSK (C1)
+
+Gün 3 (kendi grubuyla — grup içi maçlar)
+
+Ankara Barosu Erkek (A1) — İstanbul Barosu Basketbol (A2) (A grubu içi)
+
+Ankara Barosu Basketbol A (B1) — Bursa Barosu (B2) (B grubu içi)
+
+İstanbul Barosu KSK (C1) — Sakarya Barosu (C2) (C grubu içi)
